@@ -1,0 +1,14 @@
+# Ignore Virtual Environment
+venv/
+ENV/
+env/
+
+# Ignore Python Cache
+__pycache__/
+*.py[cod]
+
+# Ignore Model Weights (if larger than 100MB)
+*.h5
+
+# Environment variables / API keys
+.env
